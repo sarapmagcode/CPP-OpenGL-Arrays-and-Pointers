@@ -36,7 +36,7 @@ int main() {
 	int x[size] = {1, 2, 3, 4, 5};
 	cout << "---------------------------------POINTERS AND ARRAYS---------------------------------" << endl;
 	// will produce the memory address of the first element in array 'x'
-	cout << x + 1 << endl;
+	cout << x << endl;
 	// same as:
 	cout << &x[0] << endl;
 	// actual value of the first element:
